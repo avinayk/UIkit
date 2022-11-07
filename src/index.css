@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Avenir-Book;
+  }
+  @font-face {
+    font-family: "Avenir-Book";
+    src: url("./assets/fonts/AvenirLTStd-Book.eot");
+    src: url("./assets/fonts/AvenirLTStd-Book.eot?#iefix")
+        format("embedded-opentype"),
+      url("./assets/fonts/AvenirLTStd-Book.woff2") format("woff2"),
+      url("./assets/fonts/AvenirLTStd-Book.woff") format("woff"),
+      url("./assets/fonts/AvenirLTStd-Book.ttf") format("truetype"),
+      url("./assets/fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Avenir-Black";
+    src: url("./assets/fonts/Metropolis-Black.eot");
+    src: url("./assets/fonts/Metropolis-Black.eot?#iefix")
+        format("embedded-opentype"),
+      url("./assets/fonts/Metropolis-Black.woff2") format("woff2"),
+      url("./assets/fonts/Metropolis-Black.woff") format("woff"),
+      url("./assets/fonts/Metropolis-Black.ttf") format("truetype"),
+      url("./assets/fonts/Metropolis-Black.svg#Metropolis-Black") format("svg");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Avenir-Roman";
+    src: url("./assets/fonts/Metropolis-SemiBold.eot");
+    src: url("./assets/fonts/Metropolis-SemiBold.eot?#iefix")
+        format("embedded-opentype"),
+      url("./assets/fonts/Metropolis-SemiBold.woff2") format("woff2"),
+      url("./assets/fonts/Metropolis-SemiBold.woff") format("woff"),
+      url("./assets/fonts/Metropolis-SemiBold.ttf") format("truetype"),
+      url("./assets/fonts/Metropolis-SemiBold.svg#Metropolis-SemiBold")
+        format("svg");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+}
